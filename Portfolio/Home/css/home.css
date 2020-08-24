@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1290px;
+    background-color: white;
+    border: solid rgba(214, 214, 214, 0.575); ;
+    border-width: 30px 30px 30px 30px;
+}
+body header {
+    width: 1260px;
+    padding: 30px;
+    margin-bottom: 10px; 
+    margin-top: 30px;
+}
+ body header .icon{
+     padding-top: 80px;
+}
+body header .icon img {
+    width: 50px;
+}
+    
+body header  .bar{
+    font-size: 35px;
+  color: black;
+  margin-left: 1150px;
+
+}
+
+body nav {
+    display: flex;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+body nav .text {
+    font-style:  normal;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+body nav .text h5 {
+ font-size: 40px;
+ 
+}
+body nav .text p {
+ color: grey;
+ 
+}
+body nav .menubar {
+    margin-left: 350px ;
+    width: 500px;
+    padding-top: 40px;
+    padding-left: 20px;
+    
+}
+body nav .menubar .all {
+    color: gray;
+    font-size: 20px;
+    text-decoration-line: none;
+    transition: 0.5s;
+}
+body nav .menubar .all:hover {
+    color:  rgb(241, 222, 112);
+}
+
+body nav .menubar .furniture {
+    color: gray;
+    font-size: 20px;
+    text-decoration-line: none;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+body nav .menubar .furniture:hover {
+    color:  rgb(241, 222, 112);
+}
+body nav .menubar .logo {
+    color: gray;
+    font-size: 20px;
+    text-decoration-line: none;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+body nav .menubar .logo:hover {
+    color:  rgb(241, 222, 112);
+}
+body nav .menubar .people {
+    color: gray;
+    font-size: 20px;
+    text-decoration-line: none;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+body nav .menubar .people:hover {
+    color:  rgb(241, 222, 112);
+}
+body nav .menubar .print {
+    color: gray;
+    font-size: 20px;
+    text-decoration-line: none;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+body nav .menubar .print:hover {
+    color:  rgb(241, 222, 112);
+}
+body section {
+    padding: 30px;
+}
+section .product {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+}
+section .product .product_1{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin-bottom: 20px;
+}
+section .product .product_1 img{
+    width: 380px;
+    height: 380px;
+    margin: 10px 10px 10px 10px;
+}
+section .product .product_1 .background{
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: cover;
+    border: white solid  ;
+    border-width: 10px;
+    background-color: rgba(10, 4, 4, 0.575);
+    opacity: 0;
+    transition: 0.5s;
+}
+section .product .product_1:hover .background{
+    
+    opacity: 1;
+}
+section .product .product_1 .scrip {
+    position: absolute;
+    top: 180px;
+    left: 170px;
+    font-size: 40px;
+    opacity: 0;
+    transition: 0.4s;
+    color: white;
+}
+section .product .product_1:hover .scrip {
+    opacity: 1;
+}
+
+footer {
+    width: 1290px;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:rgba(214, 214, 214, 0.575); 
+    text-align: center;
+}
+footer .link{
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+footer .link .facebook{
+    color: gray;
+    text-decoration-line: none;
+    margin-left: 10px;
+}
+footer .link .facebook:hover{
+    color: rgb(228, 199, 135);
+  
+}
+footer .link .twitter{
+    color: gray;
+    text-decoration-line: none;
+    margin-left: 10px;
+}
+footer .link .twitter:hover{
+    color: rgb(228, 199, 135);
+}
+footer .link .instagram{
+    color: gray;
+    text-decoration-line: none;
+    margin-left: 10px;
+}
+footer .link .instagram:hover{
+    color: rgb(228, 199, 135);
+}
+footer .link .dribbble{
+    color: gray;
+    text-decoration-line: none;
+    margin-left: 10px;
+}
+footer .link .dribbble:hover{
+    color: rgb(228, 199, 135);
+}
+footer .link .youtube{
+    color: gray;
+    text-decoration-line: none;
+    margin-left: 10px;
+}
+footer .link .youtube:hover{
+    color: rgb(228, 199, 135);
+}
+footer .source {
+    color: gray;
+    text-decoration-line: none;
+}
